@@ -1,0 +1,28 @@
+#include<stdio.h>
+void main()
+{
+    int choice=0;
+    printf("rushil vibhakar\n");
+    printf("what do you want to eat?: \n1. Pizza\n2. garlic bread\n3. burger\n4. french fries\n5. nachos with cheese");
+    scanf("%d",& choice);
+    switch(choice)
+    {
+    case 1:
+        printf("you picked pizza,Rs 239");
+            break;
+    case 2:
+        printf("you picked garlic bread,Rs 199");
+            break;
+    case 3:
+        printf("you picked Burger,Rs 159");
+            break;
+    case 4:
+        printf("you picked french fries,Rs 99");
+            break;
+    case 5:
+        printf("you picked Nachos with cheese,Rs 249");
+            break;
+        default:
+        ("your choice is not available");
+    }
+}
